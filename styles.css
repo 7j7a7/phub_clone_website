@@ -1,0 +1,284 @@
+body{
+    background-color: #111; 
+  }
+  
+  h1 , p{
+    color: #ffffff;
+    font-size: 25px;
+  }
+  
+  h1{
+    font-size: 60px;
+  }
+  
+  span{
+    background-color: orange;
+    color: #000;
+    padding: 6px;
+    border-radius: 5px;
+    
+  }
+  
+/* Styles for the sidebar and button */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  background-color: rgb(0, 0, 0);
+  color: #FFFFFF;
+  overflow-x: hidden;
+}
+
+.sidebar a {
+    padding: 10px 10px 10px;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+}
+
+.openbtn {
+    font-size: 32px;
+    background-color: #000000;
+    color: orange;
+    padding: 10px 10px 10px;
+    border: none;
+    position: absolute;
+    left: 0;
+}
+
+/* main content area */
+#main {
+    transition: margin-left .5s;
+    padding: 5px;
+    margin-left: 0;
+    /* Initially set to 0 */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+
+.logo {
+   
+    font-family: 'helvetica', sans-serif;
+    margin-top: 20%;
+    font-size: 24px;
+    color: #ffffff;
+    position: absolute;
+    top: 20px;
+    left: 150px; /*moves to left*/
+}
+
+ /*SEARCH BAR stuff*/
+#demo{
+  width:10%;
+  height:1px;
+  border-radius:20px;
+  margin-top: -20px;
+  padding-top: 40px;  /*thickness*/
+  padding-right:400px;
+  margin-left: 450px;
+  padding-left: 90px;
+  background-color: #292929;
+  line-height: normal;
+}
+
+input{
+  color: white;
+}
+
+.searchbox {
+  position: relative;  
+  outline: none;
+  padding: 5px;
+  border: 1px solid rgb(50, 50, 50); 
+}
+  
+.placeholder {
+  position:top;
+  left: 20px;
+  top: 2px;  
+  background-color: white;  
+  padding: 0 20px;  
+  size: 50px;
+}
+
+#searchbutton{
+  position: relative;
+  top: -40px;
+  padding-right:40px;
+  margin-left: 310px;
+  padding-left: 100px;
+}
+
+.norm{
+  font-family: 'Rubik Mono One';
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.center{
+  text-align: center;
+}
+
+.border{
+  background-color: #292929;
+  border-radius: 2px;
+  height: 40px;
+  width: 250px;
+  border:1px solid rgb(69, 68, 68);
+  color:  rgb(212, 204, 204);
+  
+}
+
+.info{
+  font-family:'Nova Mono' ;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 25px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color:orange;
+  color: black;
+}
+
+/*profile */
+.profile{
+  /* top:-50px; */
+  padding-right:-40px;
+  margin-left: 940px;
+  padding-left: 200px;
+}
+
+/*BUTTONS*/
+.btn-group button {
+  background-color: #000000; 
+  border: 1px solid rgb(26, 27, 26); 
+  color: white; /* White text */
+  padding: 10px 50px; /* Some padding */
+  float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #434443;
+}
+
+
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: -40px;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 400px;
+  padding: 10px;
+  background-color: rgb(84, 84, 84);
+}
+
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: orange;
+  color: rgb(0, 0, 0);
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: rgb(69, 69, 67);
+  color: #000;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
