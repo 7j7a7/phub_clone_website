@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf8">
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+<title>MyPortfolio</title>
+</head>
+
+<body>
+
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Socials</button>
+            <div class="dropdown-content">
+              <a href="https://www.instagram.com/__j.a.g.r.u.t.i__/" target="_blank">Art Instagram</a>
+              <a href="https://www.linkedin.com/in/jagruti-akkisetty-j10nct127" target="_blank">Linkedin</a>
+              <a href="https://medium.com/@jagrutii" target="_blank">Medium Blog</a>
+            </div>
+          </div>
+        <a href="#">Feedback</a>
+    </div>
+
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">☰</button>
+        <h1 class="logo">Portfolio<span>Project</span></h1>
+    </div>
+
+    <form>
+        <a href="sign_up.html"><img class="profile" src="https://static.vecteezy.com/system/resources/previews/008/302/421/original/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg" width="45" height="40"></a>
+        <div>
+            <input id="demo" type="text"  placeholder="Search Here" class="searchbox" autocomplete="off">
+            <input type="image" id="searchbutton"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC_uDyjHMKMXwylIpI1v7AFLcVBaaTU9gBuQ&usqp=CAU" width="35" height="30" autocomplete="off">
+            
+        </div> 
+    </form>
+
+    <div class="btn-group"> <!--buttons just there to match the layout-->
+        <button>filler 1</button>
+        <button>filler 2 ▼</button>
+        <button>filler 3 ▼</button>
+        <button>filler 4 ▼</button>
+        <button>filler 5 ▼</button>
+        <button>filler 6</button>
+        <button>filler 7 ▼</button>
+        <button>filler 8</button>
+    </div>
+    
+
+
+    <div class="norm mt-4 p-5 bg-light">
+        <h1>Feedback!</h1>
+        <hr>
+        <h2 class="info">Fill in the form</h2>
+        <hr>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScQDAndzR3MlCsLZ4CU-nxDhYlAmD7SoUniLCJluiSSbgU5zw/viewform?embedded=true" width="1000" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <hr>
+        <p class="info">I will have access to your responses </p>
+      </div>
+
+    <script src="action.js"></script>
+
+</body>
+
+</html>

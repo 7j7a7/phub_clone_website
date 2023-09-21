@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf8">
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+<title>MyPortfolio</title>
+</head>
+
+<body>
+
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Socials</button>
+            <div class="dropdown-content">
+              <a href="https://www.instagram.com/__j.a.g.r.u.t.i__/" target="_blank">Art Instagram</a>
+              <a href="https://www.linkedin.com/in/jagruti-akkisetty-j10nct127" target="_blank">Linkedin</a>
+              <a href="https://medium.com/@jagrutii" target="_blank">Medium Blog</a>
+            </div>
+          </div>
+        <a href="feedback.html">Feedback</a>
+    </div>
+
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">☰</button>
+        <h1 class="logo">Portfolio<span>Project</span></h1>
+    </div>
+
+    
+
+    <form>
+        <a href="sign_up.html"><img class="profile" src="https://static.vecteezy.com/system/resources/previews/008/302/421/original/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg" width="45" height="40"></a>
+        <div>
+            <input id="demo" type="text"  placeholder="Search Here" class="searchbox" autocomplete="off">
+            <input type="image" id="searchbutton"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC_uDyjHMKMXwylIpI1v7AFLcVBaaTU9gBuQ&usqp=CAU" width="35" height="30" autocomplete="off">
+        </div> 
+    </form>
+
+    <div class="btn-group"> <!--buttons just there to match the layout-->
+        <button>filler 1</button>
+        <button>filler 2 ▼</button>
+        <button>filler 3 ▼</button>
+        <button>filler 4 ▼</button>
+        <button>filler 5 ▼</button>
+        <button>filler 6</button>
+        <button>filler 7 ▼</button>
+        <button>filler 8</button>
+    </div>
+
+
+    <div class="norm mt-4 p-5 bg-light">
+        <h1>Home</h1>
+
+                <!-- A button to open the popup form -->
+<button class="open-button" onclick="openForm()">You have a new message!</button>
+
+<!-- The form -->
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1 class="info">Want to be Meet up?</h1>
+    <img src="https://static.wikia.nocookie.net/deathnote/images/8/83/Lawliet-L-Cole.png/revision/latest?cb=20170907105910" alt="" width="400px" height="300px">
+    <button type="submit" class="btn"><a href="">Accept</a></button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+       
+        <hr>
+        <h2 class="info">This is a mini portfolio (cloned layout) website </h2>
+        <p class="info">Fun fact, I am trying to learn Bootstrap (5) in my spare time. However, i made this website without the use of a framework (still inspired by ) to see how much i could do without it.<br>
+            So all elements are made with HTML, CSS and JavaScript.<br> The fonts are imported from Google Fonts. <br>The inspiration for the design was, doing a cloning project where i tried to recreate the layout of a well know content platform.<brI>This is my Somewhat responsive website. </p>
+      </div>
+
+
+    <script src="action.js"></script>
+
+</body>
+
+</html>
