@@ -1,16 +1,16 @@
 body{
     background-color: #111; 
   }
-  
+  /*colour of text*/
   h1 , p{
     color: #ffffff;
     font-size: 25px;
   }
-  
+  /*text size*/
   h1{
     font-size: 60px;
   }
-  
+  /* so the inline container behind the logo has an orange square*/
   span{
     background-color: orange;
     color: #000;
@@ -28,7 +28,7 @@ body{
   color: #FFFFFF;
   overflow-x: hidden;
 }
-
+/*time taken for it to pull out and the size of option text*/
 .sidebar a {
     padding: 10px 10px 10px;
     font-size: 25px;
@@ -37,13 +37,13 @@ body{
     transition: 0.3s;
 }
 
-
+/*close funtio styling*/
 .sidebar .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
 }
-
+/*to set position, like how far it pulls out*/
 .openbtn {
     font-size: 32px;
     background-color: #000000;
@@ -59,13 +59,12 @@ body{
     transition: margin-left .5s;
     padding: 5px;
     margin-left: 0;
-    /* Initially set to 0 */
     position: absolute;
     left: 60px;
     top: 20px;
 }
 
-
+/**/
 .logo {
    
     font-family: 'helvetica', sans-serif;
@@ -77,7 +76,7 @@ body{
     left: 150px; /*moves to left*/
 }
 
- /*SEARCH BAR stuff*/
+ /*SEARCH BAR stuff, positioning it*/
 #demo{
   width:10%;
   height:1px;
@@ -90,18 +89,18 @@ body{
   background-color: #292929;
   line-height: normal;
 }
-
+/*so user input will be visible against dark background*/
 input{
   color: white;
 }
-
+/**/
 .searchbox {
   position: relative;  
   outline: none;
   padding: 5px;
   border: 1px solid rgb(50, 50, 50); 
 }
-  
+  /* to move it up , to be more visible*/
 .placeholder {
   position:top;
   left: 20px;
@@ -110,7 +109,7 @@ input{
   padding: 0 20px;  
   size: 50px;
 }
-
+/* to position the search icon*/
 #searchbutton{
   position: relative;
   top: -40px;
@@ -118,17 +117,17 @@ input{
   margin-left: 310px;
   padding-left: 100px;
 }
-
+/*setting font from google font import*/
 .norm{
   font-family: 'Rubik Mono One';
   padding-left: 40px;
   padding-right: 40px;
 }
-
+/*centering text*/
 .center{
   text-align: center;
 }
-
+/*for sign up buttons*/
 .border{
   background-color: #292929;
   border-radius: 2px;
@@ -138,12 +137,12 @@ input{
   color:  rgb(212, 204, 204);
   
 }
-
+/*setting font from google font import*/
 .info{
   font-family:'Nova Mono' ;
   color: white;
 }
-
+/*to get rid of the underline*/
 a{
   text-decoration: none;
 }
@@ -213,7 +212,7 @@ a{
   float: left; /* Float the buttons side by side */
 }
 
-/* Clear floats (clearfix hack) */
+/* Clear floats */
 .btn-group:after {
   content: "";
   clear: both;
