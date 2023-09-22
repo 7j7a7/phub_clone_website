@@ -22,10 +22,8 @@ css:
   Hover- so the element properties/style can be changed while being hovered on
   Line-height- spacing between lines
   Position: fixed, absolute (to set location exactly)
-  Border- to style border, ‘solid’ is a style for the border e.g double, groove.
-
-
-
+  Border- to style border, ‘solid’ is a style for the border e.g double, groove
+-------------------------------------------------------------------------------------------------------------
 Html:
   Script to add javascript link
   Form to create a form for inputs
