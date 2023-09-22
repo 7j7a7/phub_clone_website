@@ -64,7 +64,7 @@ body{
     top: 20px;
 }
 
-/**/
+/*font for logo and positioning*/
 .logo {
    
     font-family: 'helvetica', sans-serif;
@@ -93,7 +93,7 @@ body{
 input{
   color: white;
 }
-/**/
+/*positioning*/
 .searchbox {
   position: relative;  
   outline: none;
