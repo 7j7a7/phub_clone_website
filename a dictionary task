@@ -1,0 +1,43 @@
+css:
+  ‘.’ calling a class
+  ‘#’ calling by id
+  Colour - text colour
+  Font-size for font size
+  Border-radius- to round corners
+  Padding, top,bottom and margin to position the elements and give space between buttons and position search bar.
+  Height and width to set image, button sizes. Also used to change the search bar.
+  Opacity-sets transparency
+  background-color- to set background of buttons, searchbar, webpage, ‘transparent’ used to make button background transparent.
+  Transition- how fast the sidebar moves across
+  Display:block - the element takes up the whole line and nothing can be put on its sides. Inline-block so i can set width and height to the element
+  Float: left/right- to move buttons to a side
+  Text-align to align the text
+  Text-decoration: none - so the text in the anchor tag <a> doesn’t have an underline.
+  Z-index- sets the position on z axis (diagonal line goes through x and y axis in the middle)
+  Font-family- set the font (i imported fonts from google fonts)
+  Clears the element is cleared when clicked on, e.g buttons disappear
+  Cursor:pointer- to change the pointer to hand
+  Hover- so the element properties/style can be changed while being hovered on
+  Line-height- spacing between lines
+  Position: fixed, absolute (to set location exactly)
+  Border- to style border, ‘solid’ is a style for the border e.g double, groove.
+
+
+
+Html:
+  Script to add javascript link
+  Form to create a form for inputs
+  Class container/ container fluid sets a container kind of a spacing where elements are in
+  Hr- creates a rule (line)
+  Button to create button
+  Span for an inline container
+  Type submit to create a submit button to submit form, email type to require an @ to be typed,password to censor input text, text to create an input gor text only
+  Placeholder in search bar that disappears when something is typed in, ‘value’ remains in the box.
+  Img for image
+  P for paragraph to write info
+  Label tag outside input tag to create label side of the input box instead of on top 
+  Mt and p for margin top and padding
+  Br for break (space) between elements
+  Onclick, to give an action to the button
+  Div to group elements.
+  
