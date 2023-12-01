@@ -10,19 +10,16 @@
 </head>
 
 <body>
-
     <div id="sidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="index.html">Home</a>
+        <a class="hi" href="index.html">Home</a>
         <div class="dropdown">
             <button class="dropbtn">Socials</button>
             <div class="dropdown-content">
-              <a href="https://www.instagram.com/__j.a.g.r.u.t.i__/" target="_blank">Art Instagram</a>
-              <a href="https://www.linkedin.com/in/jagruti-akkisetty-j10nct127" target="_blank">Linkedin</a>
-              <a href="https://medium.com/@jagrutii" target="_blank">Medium Blog</a>
+              <a href="#" target="_blank">Instagram</a>
             </div>
           </div>
-        <a href="feedback.html">Feedback</a>
+        <a class="hi" href="feedback.html">Feedback</a>
     </div>
 
     <div id="main">
@@ -50,21 +47,22 @@
         <button>filler 8</button>
     </div>
     
-
-    <div class="norm mt-4 p-5 bg-light">
-        <h1>Sign up</h1>
+<div id="del">
+    <div class="mt-4 p-5 bg-light">
         <hr>
         <h2 class="info center"><strong>Sign Up for Free</strong></h2>
         <p class="info center">and enhance your experience</p>
 
         <form class="center">
-            <input class="border" type="email" placeholder="Email"><p></p>
-            <input class="border" type="text" placeholder="Username (6+ characters)"><p></p>
-            <input class="border" type="password" placeholder="(6+ characters)"><p></p> 
-            <input class="border" type="submit" value="Sign Up"> 
+            <input id="email" class="border" type="email" placeholder="Email"><p></p>
+            <input id="username" class="border" type="text" placeholder="Username (6+ characters)"><p></p>
+            <input id="password" class="border" type="password" placeholder="(6+ characters)"><p></p> 
+            <input id="submit" class="border" type="button" value="Sign Up" onclick="signUp()"> <!--so page doesnt refresh with type submit-->
         </form>
       </div>
       <p class="info center">Sign up so i can steal your data<br> I'll put the code up on github if anyone wants lol</p>
+</div>
+    
 
 
 
