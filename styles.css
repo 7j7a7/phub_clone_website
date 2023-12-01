@@ -21,12 +21,15 @@ body{
   
 /* Styles for the sidebar and button */
 .sidebar {
+  position: fixed;
   height: 100%;
   width: 0;
   position: fixed;
-  background-color: rgb(0, 0, 0);
+  background-color: black; /* Set the background color to black */
+  /* opacity: 1; */
   color: #FFFFFF;
   overflow-x: hidden;
+  z-index: 1; /* Ensure the sidebar is above other elements */
 }
 /*time taken for it to pull out and the size of option text*/
 .sidebar a {
@@ -93,13 +96,7 @@ body{
 input{
   color: white;
 }
-/*positioning*/
-.searchbox {
-  position: relative;  
-  outline: none;
-  padding: 5px;
-  border: 1px solid rgb(50, 50, 50); 
-}
+
   /* to move it up , to be more visible*/
 .placeholder {
   position:top;
@@ -142,6 +139,9 @@ input{
   font-family:'Nova Mono' ;
   color: white;
 }
+h2{
+  text-align: center;
+}
 /*to get rid of the underline*/
 a{
   text-decoration: none;
@@ -155,7 +155,9 @@ a{
   font-size: 25px;
   border: none;
 }
-
+.hi:hover{
+  background-color: orange;
+}
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
@@ -195,27 +197,45 @@ a{
   color: black;
 }
 
+/*positioning*/
+.searchbox {
+  position: absolute;  
+  outline: none;
+  padding: 5px;
+  border: 1px solid rgb(50, 50, 50); 
+  top:5%;
+}
+
 /*profile */
 .profile{
   /* top:-50px; */
-  padding-right:-40px;
-  margin-left: 940px;
+  position: absolute;
+  margin-left: 78%;
   padding-left: 200px;
+  margin-top: 2%;
 }
 
 /*BUTTONS*/
 .btn-group button {
+  flex: 1; /* Distribute available space equally */
   background-color: #000000; 
   border: 1px solid rgb(26, 27, 26); 
   color: white; /* White text */
-  padding: 10px 50px; /* Some padding */
-  float: left; /* Float the buttons side by side */
-}
+  padding: 10px 73px; /* Adjust padding */
+  }
 
+.btn-group{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6%; /* Adjust the margin-top value as needed */
+  right: 40%;
+  width: 60%;
+
+}
 /* Clear floats */
 .btn-group:after {
   content: "";
-  clear: both;
+  clear: both; /*ensures button group clears any floats.*/
   display: table;
 }
 
@@ -223,8 +243,6 @@ a{
 .btn-group button:hover {
   background-color: #434443;
 }
-
-
 
 
 /* Button used to open the contact form - fixed at the bottom of the page */
@@ -245,7 +263,7 @@ a{
 .form-popup {
   display: none;
   position: fixed;
-  bottom: -40px;
+  bottom: -10px;
   right: 15px;
   border: 3px solid #f1f1f1;
   z-index: 9;
@@ -280,4 +298,18 @@ a{
 /* Add some hover effects to buttons */
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
+}
+
+.norm{
+  position: absolute;
+  top:20%;
+}
+#change{
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  position: relative; /* Set the position property as needed */
+  top: 30vh; /* Adjust the top property to position the element vertically */
+  text-align: center;
 }
