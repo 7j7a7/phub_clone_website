@@ -24,9 +24,9 @@ function openForm() {
     // alert(username);
     let password = document.getElementById("password").value;
     alert(password);
-    //claer content of div
-    var del = document.getElementById("del");
-    del.innerHTML = "";
+    //clear content of div
+    var clear = document.getElementById("del");
+    clear.innerHTML = "";
     //add new div
     var signedUp = document.createElement("div");
     signedUp.className  = "info";
@@ -36,6 +36,7 @@ function openForm() {
     // document.body.appendChild(signedUp);
     del.appendChild(signedUp); 
     //new "Sign up successful" div is added as a child to the "del" div. 
-    //This assumes that the "del" div is the one you want to replace the content of 
+    //This assumes that the "del" div is the one you want to replace the content of.
 
   }
+  
